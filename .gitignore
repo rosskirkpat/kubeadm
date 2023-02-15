@@ -2,3 +2,5 @@
 *.tar.gz
 *.tgz
 *.tar
+bin/
+.DS_STORE

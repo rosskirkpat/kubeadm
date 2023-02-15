@@ -393,3 +393,18 @@ registry.k8s.io/etcd:3.5.6-0
 registry.k8s.io/coredns/coredns:v1.9.3
 ```
 
+## packyak default binaries
+```console
+cni.exe
+crictl.exe
+containerd.exe
+ctr.exe
+flanneld.exe
+kube-apiserver.exe
+kube-controller-manager.exe
+kube-proxy.exe
+kube-scheduler.exe
+kubeadm.exe
+kubectl.exe
+kubelet.exe
+```

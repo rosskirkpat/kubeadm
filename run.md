@@ -119,7 +119,7 @@ https://github.com/kubernetes/kubernetes/blob/master/cmd/kubeadm/app/phases/addo
 ```shell
 # m1 mac - amd64 
 brew install mingw-w64 bash coreutils
-git clone github.com/kubernetes/kubernetes && cd kubernetes
+git clone github.com/kubernetes/kubernetes --depth 1 && cd kubernetes
 git fetch --tags
 git reset --hard HEAD
 git checkout v1.26.1
@@ -154,7 +154,7 @@ KUBE_BUILD_PLATFORMS=windows/amd64 KUBE_FASTBUILD=false make cross
 
 ```shell
 # m1 mac - arm64
-git clone github.com/kubernetes/kubernetes && cd kubernetes
+git clone github.com/kubernetes/kubernetes --depth 1 && cd kubernetes
 git fetch --tags
 git reset --hard HEAD
 git checkout v1.26.1
